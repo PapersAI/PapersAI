@@ -1,0 +1,57 @@
+# --- Python & OS ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.env
+.envrc
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+
+# --- Data & Large Files ---
+datasets/               # Never upload your datasets
+*.zip
+*.tar.gz
+
+# --- Model Weights & Outputs ---
+weights/            # Folder for your trained models
+*.pth
+*.pt
+*.ckpt
+*.h5
+
+# --- Logging & Visualization ---
+runs/               # TensorBoard logs
+wandb/              # Weights & Biases local files
+.vscode/            # Personal IDE settings
+
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# mkdocs documentation
+/site
